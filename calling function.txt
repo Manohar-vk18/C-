@@ -1,0 +1,16 @@
+// function in c++ a simple one
+#include<iostream>
+using namespace std;
+ //function definition
+ void man() // (void is used when no value is used)
+ {
+     cout<<"Good evening !"<<endl;
+ }
+ int main()
+ {
+     man(); // (calling function)
+     man();
+     man();
+     man();
+     return 0;
+ }

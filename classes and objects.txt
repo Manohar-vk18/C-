@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+    
+    class Car {
+        public:  // PUBLIC ACESSS SPECIFIER
+        string brand;
+        string model;
+        int price;
+        int year;
+        
+        void display() // function to display the output;
+        {
+            cout<<"Brand name = "<<brand<<endl;
+            cout<<"Model name = "<<model<<endl;
+            cout<<"price = "<<price<<endl;
+            cout<<"Year = "<<year<<endl;
+        }
+    };
+    int main()
+    {
+        Car Car1;  //creating an object of the class of car;
+        cout<<"Enter your brand name = "<<endl;
+        // cin>>Car1.brand;
+        getline(cin,Car1.brand);
+          cout<<"Enter your model name = "<<endl;
+          getline(cin,Car1.model);
+          cout<<"Enter the price tag = "<<endl;
+          cin>>Car1.price;
+          cout<<"Enter car manufacturing year = "<<endl;
+          cin>>Car1.year;
+          
+          cin.ignore(); //buffer values are ignored;
+          
+          Car Car2;  //creating an object of the class of car;
+          cout<<"Enter your brand name = "<<endl;
+         // cin>>Car2.brand;
+         getline(cin,Car2.brand);
+          cout<<"Enter your model name = "<<endl;
+          getline(cin,Car2.model);
+          cout<<"Enter the price tag = "<<endl;
+          cin>>Car2.price;
+          cout<<"Enter car manufacturing year = "<<endl;
+          cin>>Car2.year;
+          
+          
+          
+          
+          
+          
+          
+        Car1.display(); // diplaying the output using function';
+        cout<<endl;
+        Car2.display();
+
+        return 0;
+    }

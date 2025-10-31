@@ -1,0 +1,28 @@
+// using parameter constructor
+#include <iostream>
+using namespace std;
+
+class teacher
+{
+    public:
+    string name;
+    string dept;
+    int exp;
+    int salary;
+
+   //constructor;
+   teacher(string n,string d,int e,int s)
+   {
+       cout<<"Teacher name = "<<n<<endl;
+       cout<<"Teacher department = "<<d<<endl;
+       cout<<"Teacher experience = "<<e<<endl;
+       cout<<"Teacher salary = "<<s<<endl;
+   }
+};
+ int main()
+ {
+     teacher t1("Shana","CP",3,150000);
+     cout<<endl;
+     teacher t2("Omkar","English",4,120000);
+     return 0;
+ }

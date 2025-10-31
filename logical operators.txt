@@ -1,0 +1,44 @@
+// relational operators
+#include <iostream>
+using namespace std;
+int main() {
+int a=18,b=45;
+cout<<"greater = "<<(a>b)<<endl;
+cout<<"Lesser = "<<(a<b)<<endl;
+cout<<"great than are equals to = "<<(a>=b)<<endl;
+cout<<"Less than are equals to = "<<(a<=b)<<endl;
+cout<<"not equals to = "<<(a!=b)<<endl;
+    return 0;
+}
+
+
+
+//using logical operators
+#include <iostream>
+using namespace std;
+int main() {
+    int x=18,y=45;
+    cout<<"Logical AND = "<<(x>15 && x<45)<<endl;
+    cout<<"Logical OR = "<<(x>45 || y>18)<<endl;
+    cout<<"Logical NOT = "<<!(x<0)<<endl;
+    return 0;
+}
+
+
+
+// using if and else conditions
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x= 33,y=45;
+    if(x>=45)
+    {
+        cout<<x<<" is >45"<<endl;
+    }
+    else
+    {
+        cout<<x<<" is <= 33"<<endl;
+    }
+    return 0;
+}

@@ -1,0 +1,18 @@
+// using if and else conditions
+#include <iostream>
+using namespace std;
+int main()
+{
+    int v,n;
+    cout<<"Enter any number"<<endl;
+    cin>>v;
+    if(n%2==1)
+    {
+        cout<<v<<" is even!";
+    }
+    else
+    {
+        cout<<v<<" is odd!";
+    }
+    return 0;
+}

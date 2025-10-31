@@ -1,0 +1,17 @@
+// data types in c++
+#include <iostream>
+using namespace std;
+int main() {
+    int i =18;
+    float j =45.5;
+    double k =18.8181;
+    char l ='v';
+    string m ="man";
+    cout<<"Int value = "<<i<<endl;
+    cout<<"Float value = "<<j<<endl;
+    cout<<"Double value = "<<k<<endl;
+    cout<<"Char value = "<<l<<endl;
+    cout<<"String value = "<<m;
+
+    return 0;
+}

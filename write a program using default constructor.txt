@@ -1,0 +1,30 @@
+// write a program using default constructor
+#include <iostream>
+using namespace std;
+
+class Car
+{
+    public:
+    string make;
+    string model;
+    int year;
+    //default constructor(no parameters)
+    Car()
+    {
+        make = "BENZ";
+        model = "Xo8";
+        year = 2025;
+    }
+    void displayinfo()
+    {
+        cout<<year<<" "<<make<<" "<<model<<endl;
+        
+    }
+};
+int main(){
+    //creating an object using default constructor;
+    Car myCar;
+    //displaying the information;
+    myCar.displayinfo();
+    return 0;
+}

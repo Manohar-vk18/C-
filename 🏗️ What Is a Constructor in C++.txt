@@ -1,0 +1,22 @@
+🏗️ What Is a Constructor in C++?
+A constructor is a member function that runs automatically when an object is instantiated.
+
+It sets initial values for data members or allocates resources.
+
+It has the same name as the class and no return type, not even void.
+
+🎯 Why Do We Use Constructors?
+Automatic Initialization: Ensures objects start with valid or default values.
+
+Code Simplification: Reduces the need for separate initialization logic.
+
+Encapsulation: Keeps initialization logic inside the class.
+
+Overloading Support: Allows different ways to initialize objects.
+
+🧩 Types of Constructors in C++
+Type	Description
+Default Constructor	Takes no parameters. Initializes members with default values.
+Parameterized Constructor	Accepts arguments to initialize members with specific values.
+Copy Constructor	Creates a new object as a copy of an existing one. Syntax: ClassName(const ClassName &obj)
+Move Constructor	Transfers resources from a temporary object. Syntax: ClassName(ClassName &&obj)

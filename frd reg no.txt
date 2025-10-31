@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int v,k;
+    cout<<"Enter your reg no";
+    cin>>v;
+    cout<<"Your reg no is = "<<v<<endl;
+    cout<<"Enter your friend reg no";
+    cin>>k;
+    cout<<"Your friend reg no is= "<<k;
+    return 0;
+}

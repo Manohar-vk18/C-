@@ -1,0 +1,7 @@
+LOOPS in c++ >>>>
+-------------
+Loops : loops in c++ are used to exceute  a block of code repeatedly until a certain condition is met.They help in managing multiple tasks
+
+1. for loop : Used when the no of iterations is known beforehead
+2. while loop : Used when the no of iterations are not known and depends on a condition
+3. do while loop : similar to the while loop,but guarantees that the block of the code will be exceuted atleast once before checking the condition

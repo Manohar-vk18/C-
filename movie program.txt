@@ -1,0 +1,29 @@
+// movie program
+
+#include <iostream>
+using namespace std;
+
+class Movie
+{
+    public:
+    string title;
+    string director;
+    double duration;
+    float rating;
+
+ // constructor
+ Movie(string t,string d,double u,float r)
+ {
+     cout<<"Movie title = "<<t<<endl;
+     cout<<"Movie director = "<<d<<endl;
+     cout<<"Movie duration = "<<u<<endl;
+     cout<<"Movie rating = "<<r<<endl;
+ }
+ };
+ int main()
+ {
+     Movie m1("Avengers Infinity War","Russo Brothers",2.35,3.5);
+     cout<<endl;
+     Movie m2("Kgf","Prashant neel",2.45,3.5);
+    return 0;
+}

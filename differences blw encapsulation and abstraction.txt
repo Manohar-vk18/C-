@@ -1,0 +1,16 @@
+differences blw encapsulation and abstraction:
+
+   encapsulation                           abstraction
+
+1. how data is hidden inside           1. what functionalities are exposed
+
+   a class                             2. abstract classes,interfaces,or pure
+
+2. access modifiers(private,               virtual classes
+   public)
+
+3. an implementation technique          3. a design concept
+
+4.how the object achieves its           4. what the project does
+  functionally and protects its
+  data

@@ -1,0 +1,49 @@
+//write a program  with teacher class
+#include <iostream>
+using namespace std;
+    class teacher{
+        public:
+        string name;
+        string subject;
+        int year;
+        char gender;
+        
+        void display()
+        {
+            cout<<"Enter teacher name = "<<name<<endl;
+             cout<<"Enter subject name = "<<subject<<endl;
+              cout<<"Enter years of exp = "<<year<<endl;
+               cout<<"Enter gender = "<<gender<<endl;
+        }
+    };
+    int main()
+    {
+        teacher teacher1;
+        cout<<"Enter teacher name = "<<endl;
+        //cin>>teacher1.name;
+        getline(cin,teacher1.name);
+        cout<<"Enter subject name = "<<endl;
+        getline(cin,teacher1.subject);
+        cout<<"Enter years of exp = "<<endl;
+        cin>>teacher1.year;
+        cout<<"Enter gender = "<<endl;
+        cin>>teacher1.gender;
+        
+        cin.ignore();
+        
+        teacher teacher2;
+        cout<<"Enter teacher name = "<<endl;
+        //cin>>teacher2.name;
+        getline(cin,teacher2.name);
+        cout<<"Enter subject name = "<<endl;
+        getline(cin,teacher2.subject);
+        cout<<"Enter years of exp = "<<endl;
+        cin>>teacher2.year;
+        cout<<"Enter gender = "<<endl;
+        cin>>teacher2.gender;
+        
+        teacher1.display();
+        cout<<endl;
+        teacher2.display();
+        return 0;
+    }

@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+class parent
+{
+public:
+void food()
+{
+    cout<<"Inhereted burger";
+}
+};
+class child : public parent // creating the child class and inheriting
+{};
+int main()
+{
+    child b;
+    b.food();
+
+    return 0;
+}

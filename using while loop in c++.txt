@@ -1,0 +1,13 @@
+// using while loop in c++
+#include<iostream>
+using namespace std;
+int main()
+{
+    int y=3;
+    while(y<=9)
+    {
+        cout<<y<<endl;
+        y++;
+    }
+    return 0;
+    }

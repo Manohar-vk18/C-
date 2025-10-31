@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int age= 18;
+    float height= 5.7;
+    double weight=62.33;
+    char blood_group='o';
+    string name="manohar";
+cout<<age<<endl;
+cout<<height<<endl;
+cout<<weight<<endl;
+cout<<blood_group<<endl;
+cout<<name<<endl;
+
+    return 0;
+}

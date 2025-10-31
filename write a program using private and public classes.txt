@@ -1,0 +1,42 @@
+// write a program using private and public classes
+#include <iostream>
+using namespace std;
+class teacher{
+    private :
+    // data member
+    string name;
+    string subject;
+    int year;
+    public:
+    void setdetail(string tname,string tsubject,int tyear)
+    {
+        name = tname;
+        subject = tsubject;
+        year = tyear;
+    }
+    //member function
+    void display()
+{
+    cout<<"Name = "<<name<<endl
+        <<"Subject = "<<subject<<endl
+        <<"Year = "<<year<<endl;
+}
+};
+ int main()
+ { 
+     //create objects
+     teacher t1,t2,t3;
+     // assign values to objects
+     /*t1.name = "Ohm";
+      t1.subject = "English";
+      t1.year = 4;*/ 
+      
+      t1.setdetail("Ohm","English",4);
+      t2.setdetail("Mohan","Maths",5);
+      t3.setdetail("Deendayan","CS",6);
+      
+      t1.display();
+      t2.display();
+      t3.display();
+      return 0;
+ }

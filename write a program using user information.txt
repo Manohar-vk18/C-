@@ -1,0 +1,23 @@
+// write a program using user information including age,name,wt,ht,blood group
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    float b;
+    char c;
+    double d;
+    string e;
+    cout<<"Enter your age"<<endl;
+    cin>>a;
+    cout<<"Enter your height in feet"<<endl;
+    cin>>b;
+    cout<<"Enter your blood_group"<<endl;
+    cin>>c;
+    cout<<"Enter your weight in kg"<<endl;
+    cin>>d;
+    cout<<"Enter your name"<<endl;
+    cin>>e;
+    
+
+    return 0;
+}

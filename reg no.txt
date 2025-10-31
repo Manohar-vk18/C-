@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int v;
+    cout<<"Enter your reg no";
+    cin>>v;
+    cout<<"Your reg no is"<<v;
+    return 0;
+}

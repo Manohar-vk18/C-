@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+class teacher
+{
+    public:
+    string name;
+    string dept;
+    int exp;
+    double salary;
+
+   //constructor;
+   teacher()
+   {
+       name="Ohm";
+       dept="CS";
+       exp=5;
+       salary=100000;
+       cout<<"Teacher name = "<<name<<endl;
+       cout<<"Teacher department = "<<dept<<endl;
+       cout<<"Teacher experience = "<<exp<<endl;
+       cout<<"Teacher salary = "<<salary<<endl;
+   }
+    
+};
+ int main()
+ {
+     teacher t1;
+     return 0;
+ }

@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+    
+    class Car {
+        public:  // PUBLIC ACESSS SPECIFIER
+        string brand;
+        string model;
+        int price;
+        int year;
+        
+        void display() // function to display the output;
+        {
+            cout<<"Brand name = "<<brand<<endl;
+            cout<<"Model name = "<<model<<endl;
+            cout<<"price tag = "<<price<<endl;
+            cout<<"Year of manufacturing = "<<year<<endl;
+        }
+    };
+    int main()
+    {
+        Car Car1;  //creating an object of the class of car;
+        Car1.brand="BMW";
+        Car1.model="M-class";
+        Car1.price=18000000;
+        Car1.year=2024;
+        
+        Car Car2;
+        Car2.brand="Mclaren";
+        Car2.model="H-class";
+        Car2.price=180000000;
+        Car2.year=2025;
+        
+        Car1.display(); // diplaying the output using function';
+        cout<<endl;
+        Car2.display(); // diplaying the output using function';
+
+        return 0;
+    }
